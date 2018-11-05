@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: micro-service-cloud-config-william-dev
+---
+spring:
+  profiles: prod
+  application:
+    name: micro-service-cloud-config-william-prod
